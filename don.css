@@ -1,0 +1,58 @@
+body{
+    margin: 0%;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: #343a40; /* Dark grey background */
+    padding: 20px; /* Add padding */
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+/* Logo styling */
+header h1 {
+    font-size: 24px; /* Set the font size */
+    color: #f8f9fa; /* Light grey text color */
+    margin: 0; /* Remove any default margin */
+    font-weight: 700; /* Add bold font weight */
+    letter-spacing: 1px; /* Add subtle letter spacing */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Choose a classic font */
+}
+
+/* Navigation styling */
+nav {
+    text-align: center; /* Center-align the content */
+}
+
+/* Navigation link styling */
+nav a {
+    color: #f8f9fa; /* Light grey text color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 20px; /* Add spacing between links */
+    font-size: 18px; /* Set the font size */
+    transition: color 0.3s ease; /* Add smooth transition */
+}
+
+nav a:hover {
+    color: #007bff; /* Blue text color on hover */
+}
+
+/* Logout button styling */
+.logout-btn {
+    background-color: #dc3545; /* Red background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 4px 8px; /* Add padding */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Set cursor to pointer */
+    transition: background-color 0.3s ease; /* Add smooth transition */
+    margin-left:5%;
+}
+
+/* Hover effect for logout button */
+.logout-btn:hover {
+    background-color: #c82333; /* Darker red background color on hover */
+}

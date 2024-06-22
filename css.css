@@ -1,0 +1,160 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+a{
+
+    
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    
+
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+.header{
+  margin-bottom: 100px;
+  font-size: 300%;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  } 
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0088a9;
+    border-radius: 20px; 
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #005e76;
+  }
+  
+
+
+
+h2{
+   
+    margin-left: 2%;
+}
+
+
+select option{
+    background-color: white;
+}
+
+table {
+	text-align:center;
+	width: 99%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 1%;
+	margin-bottom: 5%;
+	color: black;
+  border: none;
+
+}
+
+
+th {
+	background-color: #0089ab;
+	padding:10px;
+	color:black;
+  border: #0088a9;
+  
+
+}
+
+td {
+	padding: 5px;
+	text-align:center;
+	color: black;
+	border: 2px solid #0089ab;
+	background-color: transparent;
+  
+}
+
+tr:hover{
+	background-color:white;
+	cursor: pointer;
+	color: black;
+}
+tr:hover td{
+	background-color:white;
+	cursor: pointer;
+	color: black;
+}
+
+
+
+.delete-button {
+  background-color: #ff0000; /* Red background */
+  color: #fff; /* White text color */
+  border: none; /* No border */
+  padding: 8px 12px; /* Padding */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+  margin: 0px;
+}
+
+.delete-button:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
+
+.deleteform{
+
+  margin: 0px;
+  padding: 0%;
+  background-color: none;
+}
+
+
+.update-button {
+  background-color: #0900abf9; /* Red background */
+  color: #fff; /* White text color */
+  border: none; /* No border */
+  padding: 8px 12px; /* Padding */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+  margin: 0px;
+}
+
+.update-button:hover {
+  background-color: #050066f9; /* Darker red on hover */
+}
+
+.centered-button {
+  text-align: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+/* Form styling */
+.centered-button form {
+  display: inline-block;
+  padding: 0%;
+  
+}
+
+/* Button styling */
+.centered-button input[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+}
